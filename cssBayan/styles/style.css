@@ -1,5 +1,7 @@
 /*=========================== BASE STYLES =================================*/
 
+@import './fonts.css';
+
 *, ::after, ::before {
     margin: 0;
     padding: 0;
@@ -11,8 +13,10 @@ html {
 }
 
 body {
-    color: #fff;
+    font-family: 'Lato';
+    font-weight: 700;
     font-size: 1.6rem;
+    color: #fff;
     background-color: #1c1c1c;
 }
 
@@ -119,6 +123,26 @@ body {
      height: 40rem;
      margin: 1rem auto;
      background-color: bisque;
+}
+
+.img-1 {
+    background: url('../img/mem-1.png') center/contain no-repeat ;
+}
+
+.img-2 {
+    background: url('../img/mem-2.png') center/contain no-repeat ;
+}
+
+.img-3 {
+    background: url('../img/mem-3.png') center/contain no-repeat ;
+}
+
+.img-4 {
+    background: url('../img/mem-4.png') center/contain no-repeat ;
+}
+
+.img-5 {
+    background: url('../img/mem-5.png') center/contain no-repeat ;
 }
 
 input[type=radio] {
