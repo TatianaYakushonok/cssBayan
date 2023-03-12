@@ -4,7 +4,7 @@
 
 @media (max-width: 1920px) or (min-width: 1921px){
 
-    *, ::after, ::before {
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
