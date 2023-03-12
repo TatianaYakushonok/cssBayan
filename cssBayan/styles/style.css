@@ -109,8 +109,11 @@ body {
     transition: all .3s ease-in-out;
 }
 
+.summary span {
+    padding-right: 1rem;
+}
+
 .accordion__btn {
-    padding-left: 1rem;
     font-size: 3rem;
     color:#1c1c1c;
     background: none;
@@ -120,18 +123,11 @@ body {
     opacity: 0;
 }
 
-.summary:hover + .details, 
-.details:hover,
-.summary:focus + .details, 
-.details:focus{
-    height: 30em;
-}
-
 .content {
-     width: 40rem;
-     height: 40rem;
-     margin: 1rem auto;
-     background-color: bisque;
+    width: 40rem;
+    height: 40rem;
+    margin: 1rem auto;
+    background-color: bisque;
 }
 
 .img-1 {
@@ -185,14 +181,14 @@ input[type=radio] {
     #details-3:checked ~ label:nth-of-type(3),
     #details-4:checked ~ label:nth-of-type(4),
     #details-5:checked ~ label:nth-of-type(5) {
-        height: 29.6em;
+        height: 31.4em;
     }
 
     .summary:hover + .details, 
     .details:hover,
     .summary:focus + .details, 
     .details:focus{
-        height: 29.6em;
+        height: 31.4em;
     }
 
 }
