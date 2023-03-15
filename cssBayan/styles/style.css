@@ -187,12 +187,22 @@
         #details-5:checked ~ label:nth-of-type(5) {
             height: 31.4em;
         }
-    
-        .summary:hover + .details, 
-        .details:hover,
-        .summary:focus + .details, 
-        .details:focus{
-            height: 31.4em;
+
+        #details-4:checked ~ label:nth-of-type(4) .summary > span,
+        #details-5:checked ~ label:nth-of-type(5) .summary > span {
+            white-space: normal;
+            text-overflow: none;
+            overflow: visible;
+        }
+
+        .example {
+            width: 40rem;
+            white-space: nowrap;
+        }
+
+        .tree_point{
+            text-overflow: ellipsis;
+            overflow: hidden;
         }
     
     }
